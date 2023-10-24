@@ -16,6 +16,9 @@
     --cards-price-color: #0CAF1D;
     --cards-category-background-color: #636363;
     --cards-category-text-color: #FFF;
+    --cards-button-background-search-bar: #EDEDED;
+    --cards-button-text-search-bar: #636363;
+    --cards-button-text-placeholder-search-bar: #D9D9D9;
     --cards-button-quantity-change-first-color: #3483FA;
     --cards-buttons-quantity-change-second-color: #0152CD;
     --cards-button-load-more-background-color: #E8E8E8;

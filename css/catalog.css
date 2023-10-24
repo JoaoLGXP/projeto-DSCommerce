@@ -1,20 +1,55 @@
+.dsc-search-bar {
+    display: flex;
+    border: 1px solid var(--cards-border-color);
+    border-radius: 4px;
+}
+
+.dsc-search-bar input {
+    width: calc(100% - 80px);
+    height: 40px;
+    border: none;
+    padding: 0 9px;
+    color: var(--cards-button-text-search-bar);
+}
+
+.dsc-search-bar input:focus {
+    outline: none;
+}
+
+.dsc-search-bar input::placeholder {
+    color: var(--cards-button-text-placeholder-search-bar);
+}
+
+.dsc-search-bar button {
+    width: 40px;
+    border: none;
+    background-color: var(--cards-button-background-search-bar);
+    color: var(--cards-button-text-search-bar);
+    cursor: pointer;
+}
+
+.dsc-search-btn {
+    border-radius: 4px 0 0 4px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dsc-clear-btn {
+    border-radius: 0 4px 4px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .dsc-card-product {
-    width: 225px;
     height: 280px;
     background-color: var(--cards-background-color);
     border-radius: 4px;
     border: 1px solid var(--cards-border-color);
-    margin: 0 20px 20px 0;
     cursor: pointer;
 }
 
 .dsc-card-product:hover {
     border: 1px solid var(--cards-border-hover-color);
-}
-
-.dsc-card-product-four {
-    margin: 0 0 20px 0;
-    width: 225px;
 }
 
 .dsc-card-image img {
@@ -23,6 +58,7 @@
 }
 
 .dsc-card-image {
+    padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -43,11 +79,9 @@
 }
 
 .dsc-card-container {
-    display: flex;
+    margin-top: 20px;
     width: 960px;
     width: 100%;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .dsc-load-more {
@@ -56,13 +90,21 @@
     color: var(--cards-button-load-more-text-first-color);
     font-size: 16px;
     font-weight: 700;
+    border-radius: 4px;
     background-color: var(--cards-button-load-more-background-color);
     border: 1px solid var(--cards-button-load-more-border-first-color);
     cursor: pointer;
+    margin-top: 20px;
 }
 
 .dsc-load-more:hover {
     color: var(--cards-button-load-more-text-second-color);
     border: 1px solid var(--cards-button-load-more-border-second-color);
+}
+
+.dsc-catalog-cards {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
 }
 
