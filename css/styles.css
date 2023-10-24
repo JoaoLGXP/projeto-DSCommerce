@@ -4,13 +4,33 @@
 
 :root {
     --header-background-color: #FFE500;
-    --header-text-and-category-color: #636363;
-    --body-background-color: #E8E8E8;
-    --white-color: #FFF;
-    --border-color: #D9D9D9;
-    --price-color: #0CAF1D;
-    --blue-color: #3483FA;
-    --other-blue-color: #0152cd;
+    --header-text-color: #636363;
+
+    --main-background-color: #E8E8E8;
+
+    --cards-background-color: #FFF;
+    --cards-border-color: #D9D9D9;
+    --cards-border-hover-color: #606060;
+    --cards-product-name-color: #636363;
+    --cards-product-description-color: #636363;
+    --cards-price-color: #0CAF1D;
+    --cards-category-background-color: #636363;
+    --cards-category-text-color: #FFF;
+    --cards-button-quantity-change-first-color: #3483FA;
+    --cards-buttons-quantity-change-second-color: #0152CD;
+    --cards-button-load-more-background-color: #E8E8E8;
+    --cards-button-load-more-border-first-color: #3483FA;
+    --cards-button-load-more-border-second-color: #0152CD;
+    --cards-button-load-more-text-first-color: #3483FA;
+    --cards-button-load-more-text-second-color: #0152CD;
+
+    --btn-first-button-background-color: #3483FA;
+    --btn-first-button-text-color: #FFF;
+
+    --btn-second-button-background-color: #FFF;
+    --btn-second-button-text-color: #3483FA;
+    --btn-second-button-border-color: #3483FA;
+    
 }
 
 * {
@@ -23,53 +43,80 @@
 a, a:hover {
     text-decoration: none;
     color: unset;
-} 
+}
+
+html,
+body {
+    background-color: var(--main-background-color);
+}
+
+main {
+    padding: 0 20px;
+}
+
+/*-------------------------------------------------------------*/
+/*generic styles*/
+.dsc-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.dsc-container a {
+    display: flex;
+    align-items: center;
+}
+
+.dsc-container img {
+    margin-right: 20px;
+}
+
+/*-------------------------------------------------------------*/
+/*header styles*/
 
 header {
     background-color: var(--header-background-color) ;
     height: 70px;
     display: flex;
     align-items: center;
+    padding: 0 20px;
 }
 
 nav {
-    color: var(--header-text-and-category-color);
+    color: var(--header-text-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-
+nav h1 {
+    font-size: 18px;
 }
 
-.container a {
-    display: flex;
-    align-items: center;
+@media (min-width: 576px) {
+    nav h1 {
+        font-size: 24px;
+    }
 }
 
-.container img {
-    margin-right: 20px;
+nav a {
+    font-size: 14px;
+    font-weight: 700;
 }
 
-body {
-    background-color: var(--body-background-color);
-}
+/*-------------------------------------------------------------*/
+/*card styles*/
 
-#product-details {
-    padding: 20px 0;
-}
-
-.card-details {
-    background-color: var(--white-color);
+.dsc-card-details {
+    background-color: var(--cards-background-color);
     border-radius: 4px;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--cards-border-color);
 }
 
-.btns {
+/*-------------------------------------------------------------*/
+/*button styles*/
+
+.dsc-btns {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -77,22 +124,28 @@ body {
     grid-gap: 20px;
 }
 
-.btn {
-    width: 220px;
+.dsc-btn {
+    width: 100%;
     height: 42px;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 700;
 }
 
-.btn-blue {
-    color:var(--white-color) ;
-    border: none;
-    background-color: var(--blue-color) ;
+@media (min-width: 576px) {
+    .dsc-btn {
+        width: 220px;
+    }
 }
 
-.btn-white {
-    color: var(--blue-color);
-    background-color: var(--white-color);
-    border: 1px solid var(--blue-color);
+.dsc-btn-blue {
+    color:var(--btn-first-button-text-color) ;
+    border: none;
+    background-color: var(--btn-first-button-background-color);
+}
+
+.dsc-btn-white {
+    color: var(--btn-second-button-text-color);
+    background-color: var(--btn-second-button-background-color);
+    border: 1px solid var(--btn-second-button-border-color);
 }

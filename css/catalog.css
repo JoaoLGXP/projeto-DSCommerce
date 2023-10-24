@@ -1,46 +1,48 @@
-.card-product {
+.dsc-card-product {
     width: 225px;
     height: 280px;
-    background-color: var(--white-color);
+    background-color: var(--cards-background-color);
     border-radius: 4px;
-    border: 1px solid var(--border-color);
+    border: 1px solid var(--cards-border-color);
     margin: 0 20px 20px 0;
-    
-
+    cursor: pointer;
 }
 
-.card-product-four {
+.dsc-card-product:hover {
+    border: 1px solid var(--cards-border-hover-color);
+}
+
+.dsc-card-product-four {
     margin: 0 0 20px 0;
     width: 225px;
 }
 
-.card-image img {
+.dsc-card-image img {
     width: 150px;
     height: 150px;
-   
 }
 
-.card-image {
+.dsc-card-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--cards-border-color);
 }
 
-.card-price {
+.dsc-card-price {
     margin-top: 10px;
     margin-left: 20px;
     font-size: 20px;
-    color: var(--price-color);
+    color: var(--cards-price-color);
 }
 
-.card-name-product {
+.dsc-card-name-product {
     margin: 0 19px 25px 20px;
     font-size: 10px;
-    color: var(--header-text-and-category-color);
+    color: var(--cards-product-name-color);
 }
 
-.card-container {
+.dsc-card-container {
     display: flex;
     width: 960px;
     width: 100%;
@@ -48,19 +50,19 @@
     justify-content: center;
 }
 
-.load-more {
+.dsc-load-more {
     width: 100%;
     height: 42px;
-    color: var(--blue-color);
+    color: var(--cards-button-load-more-text-first-color);
     font-size: 16px;
     font-weight: 700;
-    background-color: var(--body-background-color);
-    border: 1px solid var(--blue-color);
+    background-color: var(--cards-button-load-more-background-color);
+    border: 1px solid var(--cards-button-load-more-border-first-color);
     cursor: pointer;
 }
 
-.load-more:hover {
-    color: var(--other-blue-color);
-    border: 1px solid var(--other-blue-color);
+.dsc-load-more:hover {
+    color: var(--cards-button-load-more-text-second-color);
+    border: 1px solid var(--cards-button-load-more-border-second-color);
 }
 
