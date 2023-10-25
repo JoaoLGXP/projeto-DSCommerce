@@ -1,6 +1,7 @@
 @import 'details.css';
 @import 'cart.css';
 @import 'catalog.css';
+@import 'login.css';
 
 :root {
     --header-background-color: #FFE500;
