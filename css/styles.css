@@ -2,10 +2,14 @@
 @import 'cart.css';
 @import 'catalog.css';
 @import 'login.css';
+@import 'confirmation.css';
 
 :root {
     --header-background-color: #FFE500;
     --header-text-color: #636363;
+    --font-color-primary: #636363;
+    --font-color-error: #F33;
+    --cards-border-color-error: #F33;
 
     --main-background-color: #E8E8E8;
 

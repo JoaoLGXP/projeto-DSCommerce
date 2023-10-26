@@ -26,13 +26,17 @@
     <main>
       <section id="product-details" class="dsc-container">
         <div class="dsc-login-card">
-          <p>LOGIN</p>
-          <form class="dsc-login-access">
-            <input type="text" placeholder="Email" />
-          </form>
-          <form class="dsc-login-access">
-            <input type="text" placeholder="Senha" />
-          </form>
+          <h2>LOGIN</h2>
+          <div class="dsc-login-access-container">
+            <div>
+              <input class="dsc-login-input" type="text" placeholder="Email" />
+              <div class="dsc-error-message"></div>
+            </div>
+            <div>
+              <input class="dsc-login-input" type="password" placeholder="Senha" />
+              <div class="dsc-error-message"></div>
+            </div>
+          </div>
           <div class="dsc-btn-enter">
             <button class="dsc-btn-blue">Entrar</button>
           </div>
