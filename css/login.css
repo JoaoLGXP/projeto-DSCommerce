@@ -1,20 +1,26 @@
+@import 'styles.css';
+
+#login-section {
+    padding: 20px 0;
+}
+
 .dsc-login-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 4px;
-    border: 1px solid var(--cards-border-color);
+    border: 1px solid var(--dsc-color-card-border);
     max-width: 360px;
     margin: 0 auto;
     padding: 40px 20px;
-    background-color: var(--cards-background-color);
+    background-color: var(--dsc-color-card-bg);
 }
 
 .dsc-login-card h2 {
     margin-bottom: 20px ;
     font-size: 16px;
     font-weight: 400;
-    color: var(--cards-product-name-color);
+    color: var(--dsc-color-font-primary);
 }
 
 @media (min-width: 576px) {
@@ -35,12 +41,12 @@
 
 .dsc-error-message {
     font-size: 12px;
-    color: var(--font-color-error);
+    color: var(--dsc-color-error);
     padding-left: 4px;
 }
 
 .dsc-input-error {
-    border: 1px solid var(--font-color-error);
+    border: 1px solid var(--dsc-color-error);
 }
 
 .dsc-login-input {
@@ -49,8 +55,8 @@
     padding: 0 20px;
     font-size: 16px;
     border-radius: 4px;
-    color: var(--cards-product-name-color);
-    border: 1px solid var(--cards-border-color);
+    color: var(--dsc-color-font-primary);
+    border: 1px solid var(--dsc-color-card-border);
 }
 
 .dsc-login-input:focus {
@@ -58,7 +64,7 @@
 }
 
 .dsc-login-input::placeholder {
-    color: var(--cards-button-text-placeholder-search-bar);
+    color: var(--dsc-color-font-placeholder);
 }
 
 .dsc-btn-enter {

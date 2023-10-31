@@ -67,11 +67,15 @@ main {
     border-bottom: 1px solid var(--dsc-color-card-border);
 }
 
+.dsc-margin-bottom {
+    margin-bottom: 20px;
+}
+
 /*-------------------------------------------------------------*/
 /*header styles*/
 
 header {
-    background-color: var(--dsc-color-bg-secondary) ;
+    background-color: var(--dsc-color-bg-quaternary) ;
     height: 70px;
     display: flex;
     align-items: center;
@@ -79,7 +83,7 @@ header {
 }
 
 nav {
-    color: var(--dsc-color-font-primary);
+    color: var(--dsc-color-font-tertiary);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -100,8 +104,46 @@ nav a {
     font-weight: 700;
 }
 
-.dsc-cart-icon {
+.dsc-user {
+    display: flex;
+    align-items: center;
+}
+
+.dsc-home-icon {
+    padding-right: 14px;
+}
+
+.dsc-products-icon {
     padding-right: 20px;
+}
+
+.dsc-user-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.dsc-user-login a {
+    font-size: 14px;
+}
+
+.dsc-user-login p {
+    font-size: 12px;
+}
+
+@media (min-width: 576px) {
+
+    .dsc-home-icon {
+        margin-right: 20px;
+    }
+
+    .dsc-home-icon img {
+        padding-right: 5px;
+    }
+    
+    .dsc-products-icon img {
+        padding-right: 5px;
+    }
 }
 
 /*-------------------------------------------------------------*/
@@ -208,7 +250,7 @@ nav a {
     background-color: var(--dsc-color-bg-primary);
     border: 1px solid var(--dsc-color-card-border-secondary);
     cursor: pointer;
-    margin: 20px 0 60px 0;
+    margin: 20px 0 29px 0;
 }
 
 .dsc-load-more:hover {
