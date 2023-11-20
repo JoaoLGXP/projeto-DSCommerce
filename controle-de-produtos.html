@@ -15,18 +15,19 @@
     <link rel="stylesheet" href="./css/product-listing.css" />
   </head>
   <body>
-    <header>
+    <header class="dsc-header-admin">
       <nav class="dsc-container">
         <h1>DSCommerce</h1>
-        <div class="dsc-user">
-          <a class="dsc-home-icon" href="area-administrativa.html"
-            ><img src="images/home icon.png" alt="Home"
-          /></a>
-          <a class="dsc-products-icon" href="controle-de-produtos.html"
-            ><img src="images/products icon.png" alt="Produtos"
-          /></a>
-          <a href=""></a>
-          <div class="dsc-user-login">
+        <div class="dsc-navigation-bar-admin">
+          <div class="dsc-home-icon">
+            <img src="images/home.svg" alt="Inicio">
+            <p>Início</p>
+          </div>
+          <div class="dsc-products-icon">
+            <img src="images/products.svg" alt="Produtos">
+            <p class="dsc-menu-item-active">Produtos</p>
+          </div>
+          <div class="dsc-admin-login">
             <p>Maria Silva</p>
             <a href="#">Sair</a>
           </div>
@@ -43,260 +44,335 @@
           <button class="dsc-btn dsc-btn-white">Novo</button>
         </div>
         <form class="dsc-search-bar dsc-margin-bottom">
-          <button class="dsc-search-btn" type="submit"></button>
+          <button class="dsc-search-btn" type="submit">🔎︎</button>
           <input type="text" placeholder="Nome do produto" />
           <button class="dsc-clear-btn" type="reset">🗙</button>
         </form>
-        <div class="dsc-card-product-listing">
-          <div class="dsc-product-listing-header dsc-border-bottom">
-            <div class="dsc-product-listing-header-id">ID</div>
-            <div class="dsc-product-listing-header-price">Preço</div>
-            <div class="dsc-product-listing-header-name">Nome</div>
-          </div>
-          <div class="dsc-product-listing-container dsc-border-bottom">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="dsc-product-listing-container dsc-border-bottom">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="dsc-product-listing-container dsc-border-bottom">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="dsc-product-listing-container dsc-border-bottom">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="dsc-product-listing-container dsc-border-bottom">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="dsc-product-listing-container dsc-border-bottom">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="dsc-product-listing-container dsc-border-bottom">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="dsc-product-listing-container dsc-border-bottom">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="dsc-product-listing-container dsc-border-bottom">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="dsc-product-listing-container dsc-border-bottom">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="dsc-product-listing-container dsc-border-bottom">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="dsc-product-listing-container">
-            <div class="dsc-product-listing-details">
-              <div class="dsc-product-listing-id">341</div>
-              <img src="images/computer.png" alt="Computador" />
-              <div class="dsc-product-listing-price">R$ 5000,00</div>
-              <div class="dsc-product-listing-name">
-                <p>Computador Gamer XT Plus Ultra</p>
-              </div>
-            </div>
-            <div class="dsc-product-listing-icons">
-              <div class="dsc-product-listing-icons-edit">
-                <button><img src="images/edit icon.png" alt="Editar" /></button>
-              </div>
-              <div>
-                <button>
-                  <img src="images/delete icon.png" alt="Deletar" />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <button class="dsc-load-more">Carregar mais</button>
-    </section>
+        <table class="dsc-table">
+          <thead>
+            <th class="dsc-tb576">ID</th>
+            <th></th>
+            <th class="dsc-tb768">Preço</th>
+            <th class="dsc-txt-left">Nome</th>
+            <th></th>
+            <th></th>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td class="dsc-tb576">341</td>
+              <td>
+                <img
+                  class="dsc-product-listing-image"
+                  src="images/computer.png"
+                  alt="Computador"
+                />
+              </td>
+              <td class="dsc-tb768">R$ 5000,00</td>
+              <td class="dsc-txt-left">Computador Gamer XT Plus Ultra</td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/edit.svg"
+                  alt="Editar"
+                />
+              </td>
+              <td>
+                <img
+                  class="dsc-product-listing-btn"
+                  src="images/delete.svg"
+                  alt="Deletar"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="dsc-load-more">Carregar mais</button>
       </section>
     </main>
   </body>

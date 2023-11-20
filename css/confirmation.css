@@ -68,29 +68,6 @@
     font-size: 16px;
 }
 
-.dsc-user {
-    display: flex;
-    align-items: center;
-}
-
-.dsc-configuration-icon {
-    padding-right: 14px;
-}
-
-.dsc-user-login {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.dsc-user-login a {
-    font-size: 14px;
-}
-
-.dsc-user-login p {
-    font-size: 12px;
-}
-
 @media (min-width: 576px) {
     .dsc-shopping-total {
         text-align: right;
@@ -105,10 +82,6 @@
         font-size: 24px;
     }
 
-    .dsc-user a img {
-        margin-right: 20px;
-    }
-
     .dsc-shopping-container {
         display: flex;
         flex-direction: row;
@@ -118,9 +91,5 @@
 
     .space-top {
         padding-top: 10px;
-    }
-
-    .dsc-configuration-icon {
-        padding-right: 20px;
     }
 }

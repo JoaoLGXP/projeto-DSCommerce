@@ -1,4 +1,4 @@
-@import 'styles2.css';
+@import 'styles.css';
 
 #confirmation-section {
     padding: 20px 0;
@@ -22,79 +22,26 @@
     font-size: 16px;
 }
 
-.dsc-product-listing-header {
-    display: flex;
-    width: 100%;
-    height: 55px;
-    font-size: 14px;
-    font-weight: 700;
-    padding: 16px 0 15px 85px;
-    color: var(--dsc-color-font-primary);
-}
-
-.dsc-product-listing-header-id {
-    display: none;
-}
-
-.dsc-product-listing-header-price {
-    display: none;
-}
-
-.dsc-product-listing-id {
-    display: none;
-}
-
-.dsc-product-listing-price {
-    display: none;
-}
-
-.dsc-card-product-listing {
-    background-color: var(--dsc-color-card-bg);
-    border-radius: 10px 10px 0 0;
-    width: 100%;
-}
-
-.dsc-product-listing-container {
-    display: flex;
-    padding: 0 10px;
-    width: 100%;
-}
-
-.dsc-product-listing-details {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.dsc-product-listing-name {
-    font-size: 12px;
-    padding-right: 8px;
-    flex-wrap: wrap;
-}
-
-.dsc-product-listing-details img {
+.dsc-product-listing-image {
     width: 69px;
+    height: 69px;
+    display: block;
 }
 
-.dsc-product-listing-icons {
-    display: flex;
-    align-items: center;
+.dsc-product-listing-btn {
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+    margin: 5px;
 }
-
-.dsc-product-listing-icons button {
-    border: none;
-    background-color: var(--dsc-color-card-bg);
-}
-
-.dsc-product-listing-icons-edit {
-    padding-right: 10px
-}
-
-
 
 @media (min-width: 576px) {
-    .dsc-product-listing-container {
-        padding: 0 21px 0 38px;
+    .dsc-home-page-message {
+        text-align: left;
+    }
+    
+    .dsc-home-page-message h3 {
+        font-size: 24px;
     }
 
     .dsc-product-registration {
@@ -104,51 +51,7 @@
     .dsc-product-registration h3 {
         font-size: 24px;
     }
-
-    .dsc-product-listing-header {
-        padding: 0;
-        padding-left: 29px;
-        align-items: center;
-    }
-
-    .dsc-product-listing-header-id {
-        display: block;
-        width: 46px;
-        text-align: center;
-    }
     
-    .dsc-product-listing-header-price {
-        display: block;
-        width: 71px;
-        text-align: center;
-        margin-left: 172px;
-    }
-
-    .dsc-product-listing-header-name {
-        width: 66px;
-        margin-left: 29px;
-    }
-
-    .dsc-product-listing-id {
-        display: block;
-        margin-right: 49px;
-        font-size: 16px;
-        color: var(--dsc-color-font-primary);
-    }
-
-    .dsc-product-listing-price {
-        display: block;
-        margin-left: 58px;
-        font-size: 16px;
-        color: var(--dsc-color-font-primary);
-    }
-
-    .dsc-product-listing-name {
-        margin-left: 22px;
-        font-size: 16px;
-        color: var(--dsc-color-font-primary);
-    }
-
     .space-top {
         padding-top: 10px;
     }
